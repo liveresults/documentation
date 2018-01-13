@@ -5,9 +5,16 @@ The system have been used during many international events among others WOC2017,
 and numerous national events such as FIN-5, Swedish Elitserien 2006-, and 1000+ other events since 2006
 
 The system is free and open source and dependent on contributions for continious development. If you like it - please give a contribution for further development.
+
 [![PayPal - The safer, easier way to pay online!](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=peter%40lofas%2ese&lc=US&item_name=Orienteering%20LiveResults&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
-## For Organizers
+## Information for Organizers
+The system currently supports uploading results from the Swedish OLA system, SSFTiming, MEOS, OLEinzel (and OLStaffel) and other system that support output of IOF-XML continously.
+
+If you would like to upload from an event system not listed above, please contact peter@lofas.se with information about the system and example export files.
+
+### Events with many expected online viewers or customized layout
+If you host a big international event and expect a large number of online visitors or want to have a customized logotype on the liveresults-page there is a possibility to rent cloud-based servers to a low cost (about 10EUR for one week) that will handle the traffic and show your logo. Please contact peter @ lofas .se if your are interested in this.
 
 ## For Developers
 
