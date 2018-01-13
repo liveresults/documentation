@@ -17,5 +17,7 @@ If you would like to upload from an event system not listed above, please contac
 If you host a big international event and expect a large number of online visitors or want to have a customized logotype on the liveresults-page there is a possibility to rent cloud-based servers to a low cost (about 10EUR for one week) that will handle the traffic and show your logo. Please contact peter @ lofas .se if your are interested in this.
 
 ## For Developers
+The system exposes a public free api that can be used for 3:rd party developers that want to create applications using data from the liveresults (for example Apps for Mobile Phones).
+Read more about the [API.md](Liveresults Public API)
 
 ## For Users
