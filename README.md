@@ -22,7 +22,7 @@ The system currently supports uploading results from the Swedish OLA system, SSF
 If you would like to upload from an event system not listed above, please contact peter@lofas.se with information about the system and example export files.
 
 * [Guide for publishing Live Results when using SportSoftware (OE/OS) for event administration](uploadingsportsoftware.md)
-* [UploadingOLA](Guide for publishing Live Results when using OLA for event administration)
+* [Guide for publishing Live Results when using OLA for event administration](uploadingola.md)
 
 ### Events with many expected online viewers or customized layout
 If you host a big international event and expect a large number of online visitors or want to have a customized logotype on the liveresults-page there is a possibility to rent cloud-based servers to a low cost (about 10EUR for one week) that will handle the traffic and show your logo. Please contact peter @ lofas .se if your are interested in this.
