@@ -22,3 +22,5 @@ Note! Don’t select classes that have no classification, i.e. Inskolning in ord
 * Don’t select classes that have no classification, i.e. Inskolning in order not to show the times for these classes on live results. 
 * The classes whose courses have radio controls are selectable in the selection table at the bottom. 
 * Press ... to select the radio controls per class. 
+
+![OE Image1](oe_image1.png)
