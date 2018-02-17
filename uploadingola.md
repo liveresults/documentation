@@ -11,3 +11,14 @@ Om **MySQL** används som databas för tävlingen i OLA och LiveResults.Client (
 * Notera CompetitionID.
 * Ladda hem LiveResults.Client från [https://liveresults.github.io/documentation/](https://liveresults.github.io/documentation/) och
 installera.
+
+## Förberedelser i OLA
+Definiera först klasser och banor som vanligt.
+
+## Vid tävlingen
+* Gå in på http://liveresultat.orientering.se/adm/admincompetitions.php och gör tävlingen tillgänglig för visning. Markera Public och tryck Save.
+* Starta programmet LiveResults.Client. Välj OLA.
+* Gå igenom guiden för att göra inställningar för att ansluta till servern, välja tävling och välja etapp
+* När du kommit igenom hela guiden klickar du på knappen start. Nu startar uppladdning av data till onlineservern.
+
+Online-resultaten återfinns på http://liveresultat.orientering.se/
