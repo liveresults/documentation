@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
-title: LiveResults - Documentation
+title: LiveResults
 description: This site contains documentation about using LiveResults to publish live results from orienteering events and other events 
-show_downloads: true
+show_downloads: false
 github:
   zip_url: https://github.com/petlof/liveresults/releases/download/1.2.3.0/LiveResults.Client_1_2_3_0.zip
