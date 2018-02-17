@@ -55,5 +55,7 @@ Then press the Start button to begin export of end times. A dialog box will open
 ![OE Image4](oe_image4.png)
 
 Choose to save the report at the place and in the format selected in LiveResults.Client
+
 It is possible in LiveResults.Client to set the extension to look for in the export directory, make sure this is set to the same extension as you are exporting files as.
+
 Online results will be published on  http://liveresultat.orientering.se/
