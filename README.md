@@ -1,7 +1,7 @@
 # LiveResults for Orienteering
 This page includes documentation about the liveresults system using in many orienteering events. It's divided into information for [organizers](#organizer), [developers](#developer) and [users](#user).
 
-## Downloads
+## Download
 LiveResults Client is used for uploading results from your event
 
 Download [LiveResults Client 1.2.3.0](https://github.com/petlof/liveresults/releases/download/1.2.3.0/LiveResults.Client_1_2_3_0.zip)  
