@@ -84,4 +84,102 @@ Example-response:
 * timediff represents number of hours that the timezone of the competition is + or - **compared to Central European time (CET)**
 * multidaystage and multidayparent are set if the competition is part of a multi day competition. stage refers to the stage of the competition (1,2,4,...,n) and firstday always refers to the competition id of the first stage
 
+### getlastpassings
+_api.php?method=getlastpassings&comp=XXXX&last_hash=abcdefg_  
+Returns a list of competitions that are available  
+**Parameters**
+* comp - ID for competition
+* last_hash - Hash of last response to only retreive when response have changed
+
+Example-response:
+```
+{ 
+     "status" : "OK", "passings" : [  
+     {   "passtime" : "10:05:23", 
+         "runnerName" : "TestRunner 1", 
+         "class" : "Men Elite", 
+         "control" : 1000,
+         "controlName" : "Finish",
+         "time" : 23430},
+     {   "passtime" : "10:05:22", 
+         "runnerName" : "TestRunner 3", 
+         "class" : "Men Elite", 
+         "control" : 1000,
+         "controlName" : "Finish",
+         "time" : 23330}
+   ],
+   "hash" : "abcdef...."
+}
+```
+### getclasses
+_api.php?method=getclasses&comp=XXXX&last_hash=abcdefg_  
+Returns a list of classes in the competition  
+**Parameters**  
+* comp - ID for competition
+* last_hash - Hash of last response to only retreive when response have changed
+
+Example-response:
+```
+{ 
+ "status": "OK", 
+ "classes" : [
+         {"className": "Öppen-1"},
+         {"className": "Öppen-10"},
+         ....
+        {"className": "Öppen-8"}], 
+"hash": "84b1fdfe67a524a1580132baa174cce1"
+}
+```
+### getclassresults
+_api.php?comp=10259&method=getclassresults&unformattedTimes=true&class=Öppen-1_  
+Returns results for the class  
+**Parameters**  
+* comp - ID for competition
+* unformattedTimes - if response should include unformattedTimes or if time should be formatted 
+* class - the class to retreive results for 
+* last_hash - Hash of last response to only retreive when response have changed
+
+Example-response:
+```
+{
+   "status":"OK",
+   "className":"Gul h",
+   "splitcontrols":[
+
+   ],
+   "results":[
+      {
+         "place":"1",
+         "name":"Anton Mörkfors",
+         "club":"Järfälla OK",
+         "result":"17:02",
+         "status":0,
+         "timeplus":"+00:00",
+         "progress":100,
+         "start":6840000
+      },
+      {
+         "place":"2",
+         "name":"Leif Mörkfors",
+         "club":"Järfälla OK",
+         "result":"18:23",
+         "status":0,
+         "timeplus":"+01:21",
+         "progress":100,
+         "start":6840000
+      },
+      {
+         "place":"3",
+         "name":"Martin Kvarnefalk",
+         "club":"Järfälla OK",
+         "result":"21:07",
+         "status":0,
+         "timeplus":"+04:05",
+         "progress":100,
+         "start":6840000
+      }
+   ],
+   "hash":"883fae6e4b8f0727b6ffabb7c403277c"
+}
+```
 
