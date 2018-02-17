@@ -24,3 +24,8 @@ Note! Don’t select classes that have no classification, i.e. Inskolning in ord
 * Press ... to select the radio controls per class. 
 
 ![OE Image1](oe_image1.png)
+
+### At the competition day
+* Visit http://liveresultat.orientering.se/adm/admincompetitions.php and make the competition visible to visitors. Mark Public and press Save. 
+* Start the LiveResults.Client. Choose XML and OE/OS. 
+![OE Image2](oe_image2.png)
