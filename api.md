@@ -182,4 +182,42 @@ Example-response:
    "hash":"883fae6e4b8f0727b6ffabb7c403277c"
 }
 ```
+### getclubresults
+_api.php?comp=10259&method=getcclubresults&unformattedTimes=true&club=Klyftamo_  
+Returns results for the class  
+**Parameters**  
+* comp - ID for competition
+* unformattedTimes - if response should include unformattedTimes or if time should be formatted
+* club - the club to retreive results for 
+* last_hash - Hash of last response to only retreive when response have changed
+
+Example-response:
+```
+{ 
+  "status": "OK", 
+   "clubName": "Bengans Orienteringsklubb", 
+    "results": [
+            {
+              "place": "1", 
+              "name": "Kalle Karlsson", 
+              "club": "Bengans Orienteringsklubb",
+              "class": "H21", 
+              "result": "231600",
+              "status" : 0, 
+              "timeplus": "0", 
+              "start": 3600000
+            },
+            {
+              "place": "3", 
+               "name": "Junia Jönsson", 
+               "club": "Bengans Orienteringsklubb",
+               "class": "D21", 
+               "result": "248700",
+               "status" : 0, 
+               "timeplus": "17100", 
+               "start": 3636000
+             }],  
+        "hash": "fa6508670a66f7022847645b49b353a6"
+}
+```
 
