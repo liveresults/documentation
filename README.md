@@ -21,7 +21,7 @@ The system currently supports uploading results from the Swedish OLA system, SSF
 
 If you would like to upload from an event system not listed above, please contact peter@lofas.se with information about the system and example export files.
 
-* [UploadingSportSoftware](Guide for publishing Live Results when using SportSoftware (OE/OS) for event administration)
+* [uploadingsportsoftware.md](Guide for publishing Live Results when using SportSoftware (OE/OS) for event administration)
 * [UploadingOLA](Guide for publishing Live Results when using OLA for event administration)
 
 ### Events with many expected online viewers or customized layout
