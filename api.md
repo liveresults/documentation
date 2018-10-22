@@ -184,7 +184,7 @@ Example-response:
 ```
 ### getclubresults
 _api.php?comp=10259&method=getcclubresults&unformattedTimes=true&club=Klyftamo_  
-Returns results for the class  
+Returns results for the club  
 **Parameters**  
 * comp - ID for competition
 * unformattedTimes - if response should include unformattedTimes or if time should be formatted
