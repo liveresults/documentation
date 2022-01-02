@@ -183,7 +183,7 @@ Example-response:
 }
 ```
 ### getclubresults
-_api.php?comp=10259&method=getcclubresults&unformattedTimes=true&club=Klyftamo_  
+_api.php?comp=10259&method=getclubresults&unformattedTimes=true&club=Klyftamo_  
 Returns results for the club  
 **Parameters**  
 * comp - ID for competition
