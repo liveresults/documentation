@@ -4,9 +4,9 @@ This page includes documentation about the liveresults system using in many orie
 ## Download
 LiveResults Client is used for uploading results from your event
 
-Download [LiveResults Client 2022-04-12](https://github.com/petlof/liveresults/releases/download/Release20220412_2/LiveResults.Client-2022-04-12.zip)  
-Released: 2022-04-12
-Changelog: See [changelog](https://github.com/petlof/liveresults/releases/tag/Release20220412_2)
+Download [LiveResults Client 2022-04-20](https://github.com/petlof/liveresults/releases/download/Release-2022-04-20/LiveResultat.Client_20220420.zip)  
+Released: 2022-04-20
+Changelog: See [changelog](https://github.com/petlof/liveresults/releases)
 
 ## Background
 The system have been used during many international events among others WOC2017, WOC2016, WOC2015, WOC2014, EOC2012, WUOC2010, JWOC2008, JWOC2007, WOC2006, WOC2004
