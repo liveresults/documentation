@@ -4,7 +4,7 @@ This page includes documentation about the liveresults system using in many orie
 ## Download
 LiveResults Client is used for uploading results from your event
 
-Download [LiveResults Client 2022-04-20](https://github.com/petlof/liveresults/releases/download/Release-2022-04-20/LiveResultat.Client_20220420.zip)  
+Download [LiveResults Client 2022-04-22](https://github.com/petlof/liveresults/releases/download/Release-2022-04-22/LiveResults.Client.2022-04-22.zip)  
 Released: 2022-04-20
 Changelog: See [changelog](https://github.com/petlof/liveresults/releases)
 
